@@ -15,8 +15,8 @@ var ptx_lunr_docs = [
   "url": "sec-section-name.html",
   "type": "Section",
   "number": "1.1",
-  "title": "Matrices - Definition",
-  "body": " Matrices - Definition  For each of the following matrices, decide if they are in row-reduced echelon form; recall that a $*$ marks any possible entry (zero or non-zero). \\item If yes, describe the outcome of the associated system (unique sol, no sol, multiple solutions). \\item if not, explain why not and what step(s) are needed to put it into row-reduced echelon form. \\end{itemize}  "
+  "title": "Matrices-Definition New",
+  "body": " Matrices-Definition New  Consider the following matrices:    "
 },
 {
   "id": "sec-secname2",
@@ -26,6 +26,24 @@ var ptx_lunr_docs = [
   "number": "1.2",
   "title": "Matrix Adition",
   "body": " Matrix Adition  lets puts something  "
+},
+{
+  "id": "sec-secname3",
+  "level": "1",
+  "url": "sec-secname3.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Matrix Multiplication",
+  "body": " Matrix Multiplication  Now, the next operation is matrix multiplication.  "
+},
+{
+  "id": "sec-worksheets",
+  "level": "1",
+  "url": "sec-worksheets.html",
+  "type": "Section",
+  "number": "1.4",
+  "title": "intro to Matrices",
+  "body": " intro to Matrices   Definitions and examples  Consider the following matrices:   and    "
 },
 {
   "id": "backmatter-2",
