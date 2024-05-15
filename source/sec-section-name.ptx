@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Section Title</title>
+  <title>Matrices - Definition</title>
 
-  <p> Text of section. </p>
+  <p>  For each of the following matrices, decide if they are in row-reduced echelon form; recall that a $*$ marks any possible entry (zero or non-zero).
+    
+    \item If yes, describe the outcome of the associated system (unique sol, no sol, multiple solutions).
+    \item if not, explain why not and what step(s) are needed to put it into row-reduced echelon form.
+    \end{itemize}
+     </p>
 
 </section>
