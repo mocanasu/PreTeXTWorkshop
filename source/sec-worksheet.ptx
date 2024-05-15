@@ -15,7 +15,7 @@
 </m>
 </p>
 
-<p><term>Elements</term> in a Matrix and The Order of a Matrix
+<p><term>Elements</term> <idx><h>matrix element</h></idx>in a Matrix and The Order of a Matrix
 </p>
 <ul>
 	<li>
@@ -80,6 +80,125 @@
 </ul>
 
 
-        </worksheet>
+<p>
+	 Transpose of a Matrix
+</p>
+<p>
+	For computational purposes sometimes we need to switch the order of a matrix, so instead of  working with a <m>2 \times 3</m> matrix we can make computations with a <m>3\times 2</m> matrix. This operation is called <term>the transpose</term> of a matrix, and it works by transforming the rows of the given matrix into columns for the transpose. Here is an example:
+</p>
 
+        </worksheet>
+		<exercise>
+			<p>Consider the following matrices:</p>
+			<display>
+				<matrix>
+					<mrow>
+						<mtable columnalign="center center center">
+							<mtr>
+								<mtd><mn>1</mn></mtd>
+								<mtd><mn>2</mn></mtd>
+								<mtd><mn>1</mn></mtd>
+							</mtr>
+							<mtr>
+								<mtd><mn>3</mn></mtd>
+								<mtd><mn>0</mn></mtd>
+								<mtd><mn>1</mn></mtd>
+							</mtr>
+							<mtr>
+								<mtd><mn>2</mn></mtd>
+								<mtd><mn>1</mn></mtd>
+								<mtd><mn>0</mn></mtd>
+							</mtr>
+						</mtable>
+					</mrow>
+				</matrix>
+				<text>A, </text>
+				<matrix>
+					<mrow>
+						<mtable columnalign="center center">
+							<mtr>
+								<mtd><mn>1</mn></mtd>
+								<mtd><mn>0</mn></mtd>
+							</mtr>
+							<mtr>
+								<mtd><mn>1</mn></mtd>
+								<mtd><mn>1</mn></mtd>
+							</mtr>
+							<mtr>
+								<mtd><mo>-</mo><mn>1</mn></mtd>
+								<mtd><mo>-</mo><mn>3</mn></mtd>
+							</mtr>
+						</mtable>
+					</mrow>
+				</matrix>
+				<text>, and </text>
+				<matrix>
+					<mrow>
+						<mtable columnalign="center center center">
+							<mtr>
+								<mtd><mn>1</mn></mtd>
+								<mtd><mn>0</mn></mtd>
+								<mtd><mn>1</mn></mtd>
+							</mtr>
+							<mtr>
+								<mtd><mn>2</mn></mtd>
+								<mtd><mn>1</mn></mtd>
+								<mtd><mo>-</mo><mn>1</mn></mtd>
+							</mtr>
+						</mtable>
+					</mrow>
+				</matrix>
+				<text>C.</text>
+			</display>
+			<p>Compute the following operations, if possible. If not possible, explain why not:</p>
+			<ul>
+				<li>
+					<p>$A+B$</p>
+					<solution>
+						<p>Not possible because the dimensions of matrices $A$ and $B$ are different.</p>
+					</solution>
+				</li>
+				<li>
+					<p>$3A^T$</p>
+					<solution>
+						<display>
+							<matrix>
+								<mrow>
+									<mtable columnalign="center center center">
+										<mtr>
+											<mtd><mn>3</mn></mtd>
+											<mtd><mn>9</mn></mtd>
+											<mtd><mn>6</mn></mtd>
+										</mtr>
+										<mtr>
+											<mtd><mn>6</mn></mtd>
+											<mtd><mn>0</mn></mtd>
+											<mtd><mn>3</mn></mtd>
+										</mtr>
+										<mtr>
+											<mtd><mn>3</mn></mtd>
+											<mtd><mn>3</mn></mtd>
+											<mtd><mn>0</mn></mtd>
+										</mtr>
+									</mtable>
+								</mrow>
+							</matrix>
+						</display>
+					</solution>
+				</li>
+				<li>
+					<p>$2B+3C$</p>
+					<solution>
+						<p>Not possible because the dimensions of matrices $B$ and $C$ are different.</p>
+					</solution>
+				</li>
+				<li>
+					<p>$B-2C^T$</p>
+					<solution>
+						<p>Not possible because the dimensions of matrices $B$ and $C^T$ are different.</p>
+					</solution>
+				</li>
+			</ul>
+		</exercise>
+		
     </section>
