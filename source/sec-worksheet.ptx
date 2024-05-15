@@ -5,6 +5,8 @@
     <worksheet>
         <title>Definitions and examples</title>
         <p>
+
+
             Consider the following matrices:</p>
 
 <p>
@@ -12,6 +14,71 @@
 </m> and <m>B=\begin{pmatrix}  1 \amp 0 \amp 1 \amp -1 \\ 2 \amp 0 \amp 0 \amp 2 \\1 \amp 1 \amp 1  \amp -1\end{pmatrix}
 </m>
 </p>
+
+<p><term>Elements</term> in a Matrix and The Order of a Matrix
+</p>
+<ul>
+	<li>
+	<p>
+		 Because the matrix <m>A</m> has 3 rows and 3 columns we say that the order of the 
+         matrix <m>A</m> is <m>3 \times 3</m>.
+
+</p>
+</li>
+
+<li>
+	<p>
+		 Because the matrix <m>B</m> has ......  rows and  ....... columns we say that the order of the matrix <m>B</m> is .... .
+</p>
+</li>
+
+<li>
+	<p>
+		 Because the matrix <m>C</m> has ..... rows and  columns we say that the order of the matrix <m>C</m> is ...........
+</p>
+</li>
+
+<li>
+	<p>
+		 A matrix is called a <term>square matrix</term> if it has the same number of rows and of columns. In our examples, <m>A</m> is a square matrix (because it is a <m>3\times 3</m> matrix), but neither <m>B</m> nor <m>C</m> are square.
+</p>
+</li>
+<!-- \vskip .2truein -->
+<li>
+	<p>
+		 The element <m>a_{13}</m> is the element in the first row, third column - so for our example we have <m>a_{13}=1</m>.
+</p>
+</li>
+<li>
+	<p>
+		 Find the following elements:
+</p>
+<ul>
+	<li>
+		
+		<p>
+	
+		<m> a_{12}</m>
+		</p>
+	</li>
+</ul>
+
+</li>	<p>
+	<m>b_{23}</m>=
+
+
+	<m>b_{41}</m>=
+</p>
+<p>
+	<m>b_{14}</m>=
+</p>
+<p>
+	<m>c_{22}</m>=
+</p>
+
+
+</ul>
+
 
         </worksheet>
 
