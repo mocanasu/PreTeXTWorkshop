@@ -1,13 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Matrices - Definition</title>
+  <title>Matrices-Definition New</title>
 
-  <p>  For each of the following matrices, decide if they are in row-reduced echelon form; recall that a $*$ marks any possible entry (zero or non-zero).
+  <p>  Consider the following matrices:</p>
+
+  <p><me>A=\begin{pmatrix}
+a \amp b \\
+
+c\amp d
+  \end{pmatrix}
+</me></p> 
+<!--
+    $A=\left( \begin{array}{ccc}
+    1 & 2 & 1 \\
+    3 & 0 & 1 \\
+    2 & 1 & 0 \end{array} \right) $, $B=\left( \begin{array}{cccc}
+    1 & 0 & 1 &-1 \\
+    2 & 0 & 0 &2 \\
+    1 & 1 & 1 &-1 \end{array} \right) $, $C=\left( \begin{array}{ccc}
+    1 & 0 & 1 \\
+    2 & 1 & -1 \end{array} \right) $
     
-    \item If yes, describe the outcome of the associated system (unique sol, no sol, multiple solutions).
-    \item if not, explain why not and what step(s) are needed to put it into row-reduced echelon form.
+    \underline{Elements in a Matrix and The Order of a Matrix}
+    
+    
+    \begin{itemize}
+    \item Because the matrix $A$ has 3 rows and 3 columns we say that the order of the matrix $A$ is $3 \times 3$.
+    \vskip .2truein
+    \item Because the matrix $B$ has \hskip .2truein  rows and  \hskip .2truein columns we say that the order of the matrix $B$ is  \hskip .3truein.
+    
+    \vskip .2truein
+    \item Because the matrix $C$ has \hskip .2truein  rows and  \hskip .2truein columns we say that the order of the matrix $C$ is  \hskip .3truein.
+    
+    \vskip .2truein
+    \item A matrix is called a \textbf{square matrix} if it has the same number of rows and of columns. In our examples, $A$ is a square matrix (because it is a $3\times 3$ matrix), but neither $B$ nor $C$ are square.
+    
+    \vskip .2truein
+    \item The element $a_{13}$ is the element in the first row, third column - so for our example we have $a_{13}=1$.
+    
+    \item Find the following elements:
+    
+    \begin{multicols}{4}
+    $b_{23}$=
+    
+    $b_{41}$=
+    
+    $b_{14}$=
+    
+    
+    $c_{22}$=
+    \end{multicols}
     \end{itemize}
+    
+    \underline{Matrix Notation discussion:}
+    
      </p>
+     -->
 
 </section>
