@@ -10,11 +10,38 @@ var ptx_lunr_docs = [
   "body": "  My Website   copyright  "
 },
 {
+  "id": "sec-worksheets",
+  "level": "1",
+  "url": "sec-worksheets.html",
+  "type": "Section",
+  "number": "1.1",
+  "title": "intro to Matrices",
+  "body": " intro to Matrices   Definitions and examples  Consider the following matrices:   and   Elements in a Matrix and The Order of a Matrix    Because the matrix has 3 rows and 3 columns we say that the order of the matrix is .    Because the matrix has ...... rows and ....... columns we say that the order of the matrix is .... .    Because the matrix has ..... rows and columns we say that the order of the matrix is ...........    A matrix is called a square matrix if it has the same number of rows and of columns. In our examples, is a square matrix (because it is a matrix), but neither nor are square.     The element is the element in the first row, third column - so for our example we have .    Find the following elements:           = =   =   =    "
+},
+{
+  "id": "sec-worksheets-2-4",
+  "level": "2",
+  "url": "sec-worksheets.html#sec-worksheets-2-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Elements "
+},
+{
+  "id": "sec-worksheets-2-5-4-1",
+  "level": "2",
+  "url": "sec-worksheets.html#sec-worksheets-2-5-4-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "square matrix "
+},
+{
   "id": "sec-section-name",
   "level": "1",
   "url": "sec-section-name.html",
   "type": "Section",
-  "number": "1.1",
+  "number": "1.2",
   "title": "Matrices-Definition New",
   "body": " Matrices-Definition New  Consider the following matrices:    "
 },
@@ -23,7 +50,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-secname2.html",
   "type": "Section",
-  "number": "1.2",
+  "number": "1.3",
   "title": "Matrix Adition",
   "body": " Matrix Adition  lets puts something  "
 },
@@ -32,18 +59,9 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-secname3.html",
   "type": "Section",
-  "number": "1.3",
+  "number": "1.4",
   "title": "Matrix Multiplication",
   "body": " Matrix Multiplication  Now, the next operation is matrix multiplication.  "
-},
-{
-  "id": "sec-worksheets",
-  "level": "1",
-  "url": "sec-worksheets.html",
-  "type": "Section",
-  "number": "1.4",
-  "title": "intro to Matrices",
-  "body": " intro to Matrices   Definitions and examples  Consider the following matrices:   and    "
 },
 {
   "id": "backmatter-2",
