@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "intro to Matrices",
-  "body": " intro to Matrices   Definitions and examples  Consider the following matrices:   and   Elements in a Matrix and The Order of a Matrix    Because the matrix has 3 rows and 3 columns we say that the order of the matrix is .    Because the matrix has ...... rows and ....... columns we say that the order of the matrix is .... .    Because the matrix has ..... rows and columns we say that the order of the matrix is ...........    A matrix is called a square matrix if it has the same number of rows and of columns. In our examples, is a square matrix (because it is a matrix), but neither nor are square.     The element is the element in the first row, third column - so for our example we have .    Find the following elements:           = =   =   =    "
+  "body": " intro to Matrices   Definitions and examples  Consider the following matrices:   and   Elements  matrix element in a Matrix and The Order of a Matrix    Because the matrix has 3 rows and 3 columns we say that the order of the matrix is .    Because the matrix has ...... rows and ....... columns we say that the order of the matrix is .... .    Because the matrix has ..... rows and columns we say that the order of the matrix is ...........    A matrix is called a square matrix if it has the same number of rows and of columns. In our examples, is a square matrix (because it is a matrix), but neither nor are square.     The element is the element in the first row, third column - so for our example we have .    Find the following elements:           = =   =   =   Transpose of a Matrix  For computational purposes sometimes we need to switch the order of a matrix, so instead of working with a matrix we can make computations with a matrix. This operation is called the transpose of a matrix, and it works by transforming the rows of the given matrix into columns for the transpose. Here is an example:   Consider the following matrices:      1  2  1    3  0  1    2  1  0      A,      1  0    1  1    - 1  - 3      , and      1  0  1    2  1  - 1      C.  Compute the following operations, if possible. If not possible, explain why not:   $A+B$   Not possible because the dimensions of matrices $A$ and $B$ are different.     $3A^T$        3  9  6    6  0  3    3  3  0          $2B+3C$   Not possible because the dimensions of matrices $B$ and $C$ are different.     $B-2C^T$   Not possible because the dimensions of matrices $B$ and $C^T$ are different.     "
 },
 {
   "id": "sec-worksheets-2-4",
@@ -35,6 +35,24 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "",
   "body": "square matrix "
+},
+{
+  "id": "sec-worksheets-2-7",
+  "level": "2",
+  "url": "sec-worksheets.html#sec-worksheets-2-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "the transpose "
+},
+{
+  "id": "sec-worksheets-3",
+  "level": "2",
+  "url": "sec-worksheets.html#sec-worksheets-3",
+  "type": "Checkpoint",
+  "number": "1.1.1",
+  "title": "",
+  "body": "Consider the following matrices:      1  2  1    3  0  1    2  1  0      A,      1  0    1  1    - 1  - 3      , and      1  0  1    2  1  - 1      C.  Compute the following operations, if possible. If not possible, explain why not:   $A+B$   Not possible because the dimensions of matrices $A$ and $B$ are different.     $3A^T$        3  9  6    6  0  3    3  3  0          $2B+3C$   Not possible because the dimensions of matrices $B$ and $C$ are different.     $B-2C^T$   Not possible because the dimensions of matrices $B$ and $C^T$ are different.    "
 },
 {
   "id": "sec-section-name",

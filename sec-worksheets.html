@@ -121,7 +121,7 @@ window.MathJax = {
 <ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section active">
 <div class="toc-title-box"><a href="sec-worksheets.html" class="internal"><span class="codenumber">1.1</span> <span class="title">intro to Matrices</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-worksheets.html#sec-worksheets-2" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Definitions and examples</span></a></div></li></ul>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-worksheets.html#sec-worksheets-2" class="internal"><span class="codenumber">1.1</span> <span class="title">Definitions and examples</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-section-name.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Matrices-Definition New</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-secname2.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Matrix Adition</span></a></div></li>
@@ -134,7 +134,7 @@ window.MathJax = {
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">1.1</span><span class="space"> </span><span class="title">intro to Matrices</span>
 </h2>
 <section class="worksheet" id="sec-worksheets-2"><h3 class="heading hide-type">
-<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="space"> </span><span class="title">Definitions and examples</span><div class="print-links">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Definitions and examples</span><div class="print-links">
 <a href="sec-worksheets-2-a4.html" class="a4">A4</a><a href="sec-worksheets-2-letter.html" class="us">US</a>
 </div>
 </h3>
@@ -156,7 +156,105 @@ window.MathJax = {
 <div class="para" id="sec-worksheets-2-5-6-1">Find the following elements:</div>
 <ul class="circle"><li id="sec-worksheets-2-5-6-2-1"><div class="para" id="sec-worksheets-2-5-6-2-1-1"><span class="process-math">\(\displaystyle a_{12}\)</span></div></li></ul>
 </li>
-</ul></section></section></div>
+</ul>
+<div class="para" id="sec-worksheets-2-6">Transpose of a Matrix</div>
+<div class="para" id="sec-worksheets-2-7">For computational purposes sometimes we need to switch the order of a matrix, so instead of  working with a <span class="process-math">\(2 \times 3\)</span> matrix we can make computations with a <span class="process-math">\(3\times 2\)</span> matrix. This operation is called <dfn class="terminology">the transpose</dfn> of a matrix, and it works by transforming the rows of the given matrix into columns for the transpose. Here is an example:</div></section><details id="sec-worksheets-3" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="period">.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-worksheets-3-1">Consider the following matrices:</div>
+					
+						
+							
+								1
+								2
+								1
+							
+							
+								3
+								0
+								1
+							
+							
+								2
+								1
+								0
+							
+						
+					
+				
+ A, 
+					
+						
+							
+								1
+								0
+							
+							
+								1
+								1
+							
+							
+								-1
+								-3
+							
+						
+					
+				
+ , and 
+					
+						
+							
+								1
+								0
+								1
+							
+							
+								2
+								1
+								-1
+							
+						
+					
+				
+ C.<div class="para" id="sec-worksheets-3-3">Compute the following operations, if possible. If not possible, explain why not:</div>
+<ul class="disc">
+<li id="sec-worksheets-3-4-1">
+<div class="para" id="sec-worksheets-3-4-1-1">$A+B$</div>
+<details id="sec-worksheets-3-4-1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="sec-worksheets-3-4-1-2-1">Not possible because the dimensions of matrices $A$ and $B$ are different.</div></div></details>
+</li>
+<li id="sec-worksheets-3-4-2">
+<div class="para" id="sec-worksheets-3-4-2-1">$3A^T$</div>
+<details id="sec-worksheets-3-4-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+								
+									
+										
+											3
+											9
+											6
+										
+										
+											6
+											0
+											3
+										
+										
+											3
+											3
+											0
+										
+									
+								
+							
+</div></details>
+</li>
+<li id="sec-worksheets-3-4-3">
+<div class="para" id="sec-worksheets-3-4-3-1">$2B+3C$</div>
+<details id="sec-worksheets-3-4-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="sec-worksheets-3-4-3-2-1">Not possible because the dimensions of matrices $B$ and $C$ are different.</div></div></details>
+</li>
+<li id="sec-worksheets-3-4-4">
+<div class="para" id="sec-worksheets-3-4-4-1">$B-2C^T$</div>
+<details id="sec-worksheets-3-4-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="sec-worksheets-3-4-4-2-1">Not possible because the dimensions of matrices $B$ and $C^T$ are different.</div></div></details>
+</li>
+</ul></article></details></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="ch-chapter-title.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-section-name.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
