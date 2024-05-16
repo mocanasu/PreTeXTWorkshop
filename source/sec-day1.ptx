@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-day1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Day One Notes</title>
+    
+    
     <worksheet>    
     <title>Vectors, examples and definition</title>
+    <br>
         <p>Linear algebra studies vectors, vector spaces and linear transformations. However, the vectors we study are a generalization of the notion of "vector" you have met in your physics and multivariable calculus classes. We have 15 weeks to go from 2D and 3D Euclidean vector spaces to the abstract notion of a vector space, and the tools we use to study these.</p>
         <p>For now, a few basic examples:</p>
         <example>
@@ -34,5 +38,35 @@
     
  <!-- <vspace>10 cm</vspace> -->
 
+
+   <p> Invalid operations with Euclidean vectors: 
+    <ul>
+        <li>
+            <p>
+                Vector Product
+            </p>
+        </li>
+        <li>
+            <p>
+                Vector Dot product
+            </p>
+        </li>
+        <li>
+            <p>
+                Vector Cross Product
+            </p>
+        </li>
+    </ul>
+   </p> 
+   <definition xml:id="def-">
+    <statement>
+        <p> A vector space is a set of vectors <m>V</m> 
+            that has <q>reasonable </q>
+
+
+            
+        </p>
+    </statement>
+   </definition>
     </worksheet>
 </section>
