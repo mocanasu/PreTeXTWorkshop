@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-day1" xmlns:xi="http://www.w3.org/2001/XInclude">
-        <title>Vectors, examples and definition</title>
+    <worksheet>    
+    <title>Vectors, examples and definition</title>
         <p>Linear algebra studies vectors, vector spaces and linear transformations. However, the vectors we study are a generalization of the notion of "vector" you have met in your physics and multivariable calculus classes. We have 15 weeks to go from 2D and 3D Euclidean vector spaces to the abstract notion of a vector space, and the tools we use to study these.</p>
         <p>For now, a few basic examples:</p>
         <example>
-            <p>An Euclidean vector <m> \vec{v} </m> is usually described either geometrically or using Cartesian coordinates:</p>
+            <p>An Euclidean vector <m> \vec{v} </m> is 
+                usually described either geometrically or
+                 using Cartesian coordinates:<m>\vec{v}=\begin{pmatrix}
+                 1 \\ 2 \\ 3\end{pmatrix}</m>
+                 
+                 </p>
         </example>
-    </subsection>
+    Since we are discussing "algebra", we need to know what are valid 
+    algebraic operations with vectors. You know these as: 
+        <example>
+            <p>If we a vector <m> \vec{v}</m> and a number <m>c</m> 
+                 we can scale our given vector by the number to 
+                 get another vector, namely <m>c\vec{v}=3\begin{pmatrix}
+                 1 \\ 2 \\ 3\end{pmatrix} =</m>
+                 
+                 </p>
+        </example>
     
+        <example>
+            <p>If we have two vectors, say <m> \vec{v}, \vec{u} </m>  we can find their sum <m>\vec{v}+\vec{u}=\begin{pmatrix}
+                 1 \\ 2 \\ 3\end{pmatrix} +\begin{pmatrix}
+                 2 \\ -1 \\ 0.5\end{pmatrix} =</m>
+                 
+                 </p>
+        </example>
+    
+ <!-- <vspace>10 cm</vspace> -->
 
+    </worksheet>
 </section>
