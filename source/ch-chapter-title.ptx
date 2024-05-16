@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-chapter-title" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Introduction to Matrices</title>
+  <title>Introduction to Linear Algebra</title>
 
   <introduction>
     <p> First, some basic definitions and examples. </p>
@@ -9,8 +9,9 @@
 
   <!-- include sections -->
   <xi:include href="sec-day1.ptx" />
+  <xi:include href="sec-day2.ptx" />
   <xi:include href="sec-worksheet.ptx" />
   <xi:include href="sec-section-name.ptx" />
   <!-- <xi:include href="sec-sectestchat.ptx" /> -->
-  <xi:include href="sec-secname2.ptx" />
+  
 </chapter>
