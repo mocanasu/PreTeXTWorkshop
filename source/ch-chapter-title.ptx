@@ -11,6 +11,7 @@
   <xi:include href="sec-worksheet.ptx" />
 
   <xi:include href="sec-section-name.ptx" />
+  <xi:include href="sec-sectestchat.ptx" />
   <xi:include href="sec-secname2.ptx" />
-  <xi:include href="sec_secname3.ptx" />
+  <xi:include href="sec-day1.ptx" />
 </chapter>
