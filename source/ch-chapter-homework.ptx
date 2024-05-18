@@ -4,14 +4,11 @@
   <title>Homework</title>
 
   <introduction>
-    <p> First, some basic definitions and examples. </p>
+    <p> Homework Rules </p>
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-day1.ptx" />
-  <xi:include href="sec-day2.ptx" />
-  <xi:include href="sec-worksheet.ptx" />
-  <xi:include href="sec-section-name.ptx" />
+  <xi:include href="sec-hw1.ptx" />
   <!-- <xi:include href="sec-sectestchat.ptx" /> -->
   
 </chapter>
