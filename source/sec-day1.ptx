@@ -6,7 +6,6 @@
     
     <worksheet>    
     <title>Vectors, examples and definition</title>
-    <br>
         <p>Linear algebra studies vectors, vector spaces and linear transformations. However, the vectors we study are a generalization of the notion of "vector" you have met in your physics and multivariable calculus classes. We have 15 weeks to go from 2D and 3D Euclidean vector spaces to the abstract notion of a vector space, and the tools we use to study these.</p>
         <p>For now, a few basic examples:</p>
         <example>
