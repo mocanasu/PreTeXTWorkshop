@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-chapter-title" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Daily Worksheets</title>
+<chapter xml:id="ch-chapter-homework" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework</title>
 
   <introduction>
     <p> First, some basic definitions and examples. </p>
